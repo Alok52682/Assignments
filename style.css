@@ -41,7 +41,7 @@ span {
     color: red;
 }
 
-p {
+.style {
     width: 50%;
     font-size: 20px;
     margin: 0 25%;
@@ -90,4 +90,37 @@ input[type=submit] {
     background-color: red;
     border: none;
 
+}
+
+.flex {
+    display: flex;
+
+}
+
+.box {
+    width: 25%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 10px 50px 100px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#left-box {
+    background-color: antiquewhite;
+}
+
+#middle-box {
+    background-color: rgb(187, 251, 229);
+}
+
+#right-box {
+    background-color: rgb(248, 206, 213);
+}
+
+footer {
+    text-align: center;
+    height: 200px;
+    weight: 100%;
+    background-color: black;
+    padding-top: 50px;
 }
