@@ -53,6 +53,7 @@ p {
 
 .ammount-sec {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .ammount {
@@ -67,4 +68,27 @@ p {
 .select {
     border: 2px solid red;
     color: red;
+}
+
+.donate {
+    text-align: center;
+    margin-bottom: 100;
+}
+
+input[type=number] {
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+}
+
+input[type=submit] {
+    font-size: 20px;
+    padding: 15px 30px;
+    color: white;
+    background-color: red;
+    border: none;
+
 }
